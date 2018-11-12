@@ -1,0 +1,199 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box; 
+}
+ul{
+	list-style:none;
+}
+a{
+	text-decoration:none;
+	color:#fff;
+}
+/***************************************************/
+.header{
+	background:#000 url('../media/background.jpg') center center no-repeat;
+	background-size:cover;
+	min-height:700px;
+	width:100%;
+}
+#rgba{
+	background:rgba(80,0,0,0.6);
+	min-height:700px;
+	width:100%;
+	padding-top:20%;
+}
+.head{
+	width:100%;
+	padding:15px;
+	margin-right:auto;
+	margin-left:auto;
+	color:#fff;
+	padding-left:5%;
+}
+.head h1{
+	text-transform:uppercase;
+	font-family:shirkhand /*cursive*/;
+	font-weight:bold;
+	font-size:50px;
+	word-spacing:10px;
+	letter-spacing:10px;
+	font-style:italic;
+	margin-bottom:25px;
+}
+.head h2{
+	text-transform:uppercase;
+	font-family:Ara Hamah 1964 B Bold;
+	font-size:20px;
+	word-spacing:35px;
+	letter-spacing:10px;
+}
+/*****************************************************/
+.container{
+	overflow:hidden;
+	text-align:center;
+	padding: 50px 25px;
+}
+.titleInfo .section-name{
+	text-transform:capitalize;
+	color: #CD4E0E;
+}
+.titleInfo .section-desc{
+	font-size: 12px;
+}
+.boxes{
+	margin-top:40px;
+}
+.boxes .box{
+	margin-bottom:25px;
+}
+.boxes .box .icon{
+	display:inline-block;
+	height:50px;
+	width:50px;
+	background-color: #CD4E0E;
+	line-height:3;
+	color: #FFF;
+	font-size: 15px;
+	transition: all .4s ease-in;
+}
+.boxes .box .icon:hover{
+	transform:scale(1.5,1.5);
+	cursor: pointer;
+	color:#fff;
+	background:#23272b;
+	border:solid 2px #CD4E0E;
+	border-radius:3px;
+}
+.boxes .box .info{
+	background-color: #CCC;
+	padding:20px;
+}
+.boxes .box .info .boxtitle{
+	text-transform: capitalize;
+	font-weight:700;
+}
+.boxes .box .info .boxdesc{
+	font-size:12px;
+}
+.click{
+	text-transform:uppercase;
+	font-weight:700;
+	width:35%;
+	margin:25px auto;
+	background-color: #CD4E0E;
+	color:#fff;
+}
+/***********************************************************************/
+.team{
+	background:rgba(130,30,0,0.8) url('../media/bb.jpg') no-repeat center center;
+	background-size:cover;
+	color:#fff;
+	min-height:400px;
+	width:100%;
+}
+.team .team-rgba{
+	background:rgba(130,50,30,0.8);
+	min-height:400px;
+	width:100%;
+}
+.team .team-title{
+	text-align:center;
+	text-transform:capitalize;
+	margin-bottom:5%;
+	padding-top:5%;
+	word-spacing:3px;
+	letter-spacing:1px;
+}
+.team-section  .one ,.team-section  .two, .team-section  .three , .team-section .four{
+	text-align:center;
+	margin-bottom:5%;
+}
+.team-section img{
+	width:200px;
+	height:200px;
+	border-radius:50%;
+	transition: all .5s ease-in;
+}
+.team-section img:hover{
+	cursor: pointer;
+	transform:rotate(360deg);
+	border: solid 5px #CD4E0E;
+}
+.team-section h3{
+	text-transform:capitalize;
+}
+.team-section p{
+	text-transform:capitalize;
+}
+.team-section .fa{
+	color:#000;
+	border-radius:5px;
+	background:#fff;
+	padding:5px;
+	margin-bottom:5%;
+}
+/****************************************************************/
+.main{
+	background:rgba(130,50,30,0.8) url('../media/banner.jpg') no-repeat center center;
+	background-size:cover;
+	color:#fff;
+	min-height:300px;
+	width:100%;
+	margin-top:3%;
+}
+.main .main-rgba{
+	background:rgba(100,50,30,0.8);
+	min-height:300px;
+	width:100%;
+}
+.main-title{
+	text-transform:capitalize;
+	text-align:center;
+	margin-bottom:5%;
+	word-spacing:3px;
+	letter-spacing:1px;
+}
+.main .first , .main .second , .main .third , .main .fourth{
+	text-align:center;
+	margin-bottom:5%
+}
+.num{
+	font-size:40px;
+	font-weight:bold;
+}
+.count{
+	text-transform:capitalize;
+	font-size:15px;
+	letter-spacing:1px;
+}
+.main-icon span{
+	display:inline-block;
+}
+.main-icon:hover .num ,.main-icon:hover .fa{
+	color:#CD4E0E;
+	transition: all .2s ease-in;
+}
+.stat-info{
+	margin-top:10px;
+}
